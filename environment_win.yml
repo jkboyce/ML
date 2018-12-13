@@ -111,3 +111,7 @@ dependencies:
   - winpty=0.4.3=4
   - zeromq=4.2.5=he025d50_1
   - zlib=1.2.11=h8395fce_2
+  - pip:
+    - tflearn==0.3.2
+prefix: C:\Users\Jack\Miniconda3\envs\jkbml
+
