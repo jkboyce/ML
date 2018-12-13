@@ -14,7 +14,7 @@ conda env create -f environment.yml
 ```
 Be sure to use the appropriate version of the .yml file for your platform (environments are *not* cross-platform). Creating the environment may take several minutes as Anaconda downloads the needed files.
 
-Then activate the environment. On Windows you type (`jkbml` is the environment name; substitute a different one if necessary):
+Then activate the environment. On Windows you type (`jkbml` is the environment name; substitute a different one as appropriate):
 ```
 activate jkbml
 ```
