@@ -1,4 +1,4 @@
-name: jkb_tensorflow
+name: jkbml
 channels:
   - defaults
 dependencies:
