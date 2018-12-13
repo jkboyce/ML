@@ -63,6 +63,7 @@ dependencies:
   - numpy-base=1.15.4=py36h8128ebf_0
   - olefile=0.46=py36_0
   - openssl=1.0.2p=hfa6e2cd_0
+  - pandas=0.23.4=py36h830ac7b_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py36_1
   - parso=0.3.1=py36_0
