@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+*.zip
+*.pickle
+__pycache__/
