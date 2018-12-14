@@ -1,0 +1,7 @@
+# GAN MNIST project
+
+This project was my first experience with GANs, Generative Adversarial Networks. You train two networks at the same time: A generator that produces images, and a discriminator that judges whether images are fake (i.e., is the image from the generator or the actual training set, MNIST in this case). You train the generator to maximize its probability of fooling the discriminator, and at the same time train the discriminator to maximize its probability of correctly detecting fakes.
+
+In my mind I envision a battle between a counterfeiter trying to forge $100 bills, and a detective from the Treasury Department trying to catch the forger. Each is learning and gradually improving at their respective jobs: The counterfeiter produces ever more sophisticated fakes, and the detective develops an ever keener eye for spotting them. If this cat-and-mouse continues long enough, the end result will be counterfeit money that is close to indistinguishable from the real thing. This is the scenario we're trying to create with a GAN. It's a brilliant idea for generating data that is "similar to" examples drawn from any given source distribution.
+
+Training GANs can be finicky because of how the two components are in competition, with the success of each defined in terms of the success of the other. Ideally you don't want the performance of either the discriminator or the generator to get too far ahead of the other during training, but this can be tricky to achieve.
