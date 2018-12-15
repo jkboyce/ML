@@ -1,0 +1,6 @@
+checkpoints/
+flower_photos/
+tensorflow_vgg/vgg16.npy
+codes
+flower_photos.tar.gz
+labels
