@@ -10,10 +10,13 @@ dependencies:
   - bleach=3.0.2=py36_0
   - ca-certificates=2018.03.07=0
   - certifi=2018.10.15=py36_0
+  - cloudpickle=0.6.1=py36_0
   - colorama=0.4.0=py36_0
   - cudatoolkit=9.0=1
   - cudnn=7.1.4=cuda9.0_0
   - cycler=0.10.0=py36h009560c_0
+  - cytoolz=0.9.0.1=py36hfa6e2cd_1
+  - dask-core=1.0.0=py36_0
   - decorator=4.3.0=py36_0
   - entrypoints=0.2.3=py36_2
   - freetype=2.9.1=ha9979f8_1
@@ -23,6 +26,7 @@ dependencies:
   - hdf5=1.10.2=hac2f561_1
   - icc_rt=2017.0.4=h97af966_0
   - icu=58.2=ha66f8fd_1
+  - imageio=2.4.1=py36_0
   - intel-openmp=2019.0=118
   - ipykernel=5.1.0=py36h39e3cac_0
   - ipython=7.2.0=py36h39e3cac_0
@@ -58,6 +62,7 @@ dependencies:
   - msys2-conda-epoch=20160418=1
   - nbconvert=5.3.1=py36_0
   - nbformat=4.4.0=py36h3a5bc1b_0
+  - networkx=2.2=py36_1
   - notebook=5.7.2=py36_0
   - numpy=1.15.4=py36ha559c80_0
   - numpy-base=1.15.4=py36h8128ebf_0
@@ -79,10 +84,12 @@ dependencies:
   - python=3.6.6=hea74fb7_0
   - python-dateutil=2.7.5=py36_0
   - pytz=2018.7=py36_0
+  - pywavelets=1.0.1=py36h8c2d366_0
   - pywinpty=0.5.4=py36_0
   - pyzmq=17.1.2=py36hfa6e2cd_0
   - qt=5.9.6=vc14h1e9a669_2
   - qtconsole=4.4.2=py36_0
+  - scikit-image=0.14.1=py36ha925a31_0
   - scikit-learn=0.20.1=py36hb854c30_0
   - scipy=1.1.0=py36h4f6bf74_1
   - send2trash=1.5.0=py36_0
@@ -98,6 +105,7 @@ dependencies:
   - terminado=0.8.1=py36_1
   - testpath=0.4.2=py36_0
   - tk=8.6.8=hfa6e2cd_0
+  - toolz=0.9.0=py36_0
   - tornado=5.1.1=py36hfa6e2cd_0
   - tqdm=4.28.1=py36h28b3542_0
   - traitlets=4.3.2=py36h096827d_0
@@ -113,6 +121,7 @@ dependencies:
   - zeromq=4.2.5=he025d50_1
   - zlib=1.2.11=h8395fce_2
   - pip:
+    - dask==1.0.0
     - tflearn==0.3.2
 prefix: C:\Users\Jack\Miniconda3\envs\jkbml
 
